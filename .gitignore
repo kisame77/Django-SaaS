@@ -1,3 +1,10 @@
+# ignore vendor static
+src/staticfiles/vendors
+
+# ignore local static file root
+# local cdn
+local-cdn/
+
 Bankai/
 
 # Byte-compiled / optimized / DLL files
