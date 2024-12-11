@@ -27,10 +27,11 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     ".railway.app",
+    "django-saas-production-713f.up.railway.app"
 ]
 
 if DEBUG:
-    ALLOWED_HOSTS = [
+    ALLOWED_HOSTS += [
         "127.0.0.1",
         "localhost",
     ]
